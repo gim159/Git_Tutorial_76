@@ -12,5 +12,11 @@ public class UserController {
 	  logger.info("경로: insert")
 	 return "user/insert";
 	}
+
+	@RequestMapping("/user/updata.do")
+	public String updata() {
+	  logger.info("경로:updata")
+	 return "user/updata";
+	}
 	
 }
