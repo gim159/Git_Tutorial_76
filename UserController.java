@@ -25,14 +25,16 @@ public class UserController {
 	  logger.info("경로: modify")
 	 return "user/ modifys";
 	}
-
-
-`	==== ㅇㅁㄴㅇㄹㄴㄻㄻㅇㄴㄴㅇㅇㄴㄹ
-	// 회원 삭제 페이지로 이동 -[마스터 브런치 추가]
+	
+	// 회원 삭제 페이지로 이동
 	@RequestMapping("/user/delete.do")
 	public String modify() {
 	  logger.info("경로: delete")
 	 return "user/ delete";
 	}
+
+	// 브란치 회사는 무엇을 하는가>
+	아르마 딜로
+
 	
 }
